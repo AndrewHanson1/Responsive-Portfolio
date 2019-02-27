@@ -1,0 +1,517 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+      width: auto;
+      
+      
+  }
+  
+  body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+    height: 100%;
+    
+  }
+#container {
+    min-height: 100%
+
+
+
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 20px;
+
+}
+  
+  header {
+    padding: 0px;
+    margin-bottom: 20px;
+    color: #333;
+    background: #fff;
+    clear: both;
+    overflow: auto;
+    width: static;
+    height: 155px;
+    position: relative;
+    border-bottom: 4px solid #cccccc;
+   
+    
+  }
+
+  nav {
+
+    float: right;
+    width: 12.7%;
+    height: 75px;
+    padding: 0px;
+    margin-right: 205px;
+    
+  }
+
+  
+ ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center; 
+    text-decoration: none;
+    overflow: hidden;
+  }
+  
+  li a:hover {
+    background-color: #4aaaa5;
+    
+    
+  }
+
+.insideheader {
+    float: left;
+    width: 15%;
+    height: 150px;
+    padding-top: 20px;
+    background: #4aaaa5;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    left: 205px;
+    
+    
+  }
+
+.andrew {
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    
+    
+  }
+  
+  #maincontent {
+    overflow: auto;
+    clear: both;
+    color: black;
+    background: white;
+    border: 3px solid #dddddd;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    width: 960px;
+    
+    
+  }
+
+  .aboutme {position: absolute;
+    left: 0;
+    top: 0;
+    border-bottom: double #4aaaa5 8px;
+    width: 100%;  
+    padding-top: 5px;  
+    padding-bottom: 5px;
+    
+      }
+  
+  #textinaboutme { color: #4aaaa5;
+                    font-size: 45px;
+                
+                    padding: 5px;
+                    
+                    padding: 5px;
+                    
+                    
+                
+                    
+
+  }
+  #division {
+    padding: 20px;
+    margin-top: 20px;
+    background: #214fb3;
+  }
+  
+  aside {
+    float: left;
+    padding: 10px;
+    overflow: auto;
+    clear: left;
+
+  }
+
+
+  p {
+    margin-top: 35px;
+    padding: 10px;
+        
+
+
+}
+  .image{
+    width: 150px;
+    height: 150px;
+    margin-top: 35px;
+    clear: both;
+    
+
+
+  }
+
+
+  footer {
+    background: #666666;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-top: 6px solid #4aaaa5;
+  }
+  
+ #contact{  background-color: #fff;
+            border: 3px solid #dddddd;
+            margin-top: 100px;
+            margin-left: 25%;
+            margin-right: 25%;
+            width: 960px;
+
+
+ }
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  h3 { 
+       border-bottom: double 6px #4aaaa5;
+       color: #4aaaa5;
+       font-weight: normal;
+       font-size: 45px;
+       padding: 10px;
+
+  }
+
+  .portfoliotop{
+    color: #4aaaa5;
+    border-bottom: double 8px #4aaaa5;
+    font-size: 45px;
+
+
+
+  }
+.image1, .image2, .image3, .image4, .image5 {
+  float: left;
+  padding: 30px;
+}
+
+.image4, .image2{
+
+    clear: both;
+}
+
+
+.imagetext1{
+      background-color: #4aaaa5;
+      height: 75px;
+      width: 250px;
+      position: absolute;
+      left: 60px;
+      top: 275px;
+      
+}
+
+.imagetext2{
+  background-color: #4aaaa5;
+      height: 75px;
+      width: 250px;
+      position: absolute;
+      left: 60px;
+      top: 585px;
+}
+
+.imagetext3{
+  background-color: #4aaaa5;
+      height: 75px;
+      width: 250px;
+      position: absolute;
+      left: 370px;
+      top: 585px;
+}
+.imagetext4{
+  background-color: #4aaaa5;
+      height: 75px;
+      width: 250px;
+      position: absolute;
+      bottom: 60px;
+      left: 60px;
+}
+.imagetext5{
+  background-color: #4aaaa5;
+      height: 75px;
+      width: 250px;
+      position: absolute;
+      bottom: 60px;
+      left: 370px;
+
+}
+/* Media Queries */
+
+
+/*980*/
+@media screen and (max-width: 980px){
+   #maincontent, #contact {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+
+  }
+
+
+}
+@media screen and (max-width: 980px){
+  .insideheader{
+   
+   left: 100px;
+   
+
+
+ }
+
+
+}
+/*768*/
+@media screen and (max-width: 768px){
+  #maincontent, #contact {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+}
+@media screen and (max-width: 768px){
+  .image1, .image2, .image3, .image4, .image5 {
+    float: none;
+    padding: 30px;
+  }
+
+  @media screen and (max-width: 768px)
+  {
+    .imagetext1{
+      background-color: #4aaaa5;
+      height: 75px;
+      width: 250px;
+      position: absolute;
+      left: 122px;
+      top: 275px;
+      
+}
+
+.imagetext2{
+  background-color: #4aaaa5;
+      height: 75px;
+      width: 250px;
+      position: absolute;
+      left: 122px;
+      top: 593px;
+}
+
+.imagetext3{
+  background-color: #4aaaa5;
+      height: 75px;
+      width: 250px;
+      position: absolute;
+      left: 122px;
+      top: 911px;
+}
+.imagetext4{
+  background-color: #4aaaa5;
+      height: 75px;
+      width: 250px;
+      position: absolute;
+      top: 1229px;
+      left: 122px;
+}
+.imagetext5{
+  background-color: #4aaaa5;
+      height: 75px;
+      width: 250px;
+      position: absolute;
+      top: 1547px;
+      left: 122px;
+
+}
+    
+  }
+/*640*/
+@media screen and (max-width: 640px){
+  #maincontent, #contact {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+}
+@media screen and (max-width: 640px){
+  .image{
+   
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   overflow: auto;
+   width: 275px;
+   height: 275px;
+   
+
+
+ }
+ @media screen and (max-width: 640px){
+  .andrew{
+   
+   font-size: 40px;
+   position: absolute;
+   left: 155px;
+   
+
+
+ }
+ @media screen and (max-width: 640px){
+  .insideheader{
+   
+    float: none;
+    width: 640px;
+    height: 100px;
+    padding-top: 0px;
+    background: #4aaaa5;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 0px;
+    
+   
+
+
+ }
+ @media screen and (max-width: 640px){
+  ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 145px;
+    
+  }
+   
+ }
+ @media screen and (max-width: 640px){
+  header{
+   
+    
+    width: 640px;
+  }
+
+  @media screen and (max-width: 640px){
+    .image1, .image2, .image3, .image4, .image5 {
+      float: none;
+      padding: 30px;
+    }
+  
+    @media screen and (max-width: 640px)
+    {
+      .imagetext1{
+        background-color: #4aaaa5;
+        height: 75px;
+        width: 250px;
+        position: absolute;
+        left: 72px;
+        top: 275px;
+        
+  }
+  
+  .imagetext2{
+    background-color: #4aaaa5;
+        height: 75px;
+        width: 250px;
+        position: absolute;
+        left: 72px;
+        top: 593px;
+  }
+  
+  .imagetext3{
+    background-color: #4aaaa5;
+        height: 75px;
+        width: 250px;
+        position: absolute;
+        left: 72px;
+        top: 911px;
+  }
+  .imagetext4{
+    background-color: #4aaaa5;
+        height: 75px;
+        width: 250px;
+        position: absolute;
+        top: 1229px;
+        left: 72px;
+  }
+  .imagetext5{
+    background-color: #4aaaa5;
+        height: 75px;
+        width: 250px;
+        position: absolute;
+        top: 1547px;
+        left: 72px;
+  
+  }
+      
+    }
+        
+    
